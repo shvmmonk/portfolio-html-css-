@@ -185,7 +185,17 @@ nav {
 
 .Hackathons-card{
     background-color: var(--card-bg);
-    padding: 60px 20px;
-    border-radius: 0%;
+    padding: 20px;
+    border-radius: 10px;
     text-align: left;
+}
+
+.Hackathons-card h3{
+    color: var(--accent-color);
+    margin-bottom: 20px;
+}
+
+.project-card p {
+  line-height: 1.5;
+  margin-bottom: 15px;
 }
