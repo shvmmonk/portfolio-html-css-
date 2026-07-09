@@ -162,3 +162,30 @@ nav {
 .project-links a:hover{
     text-decoration: underline;
 }
+
+#Hackathons {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#Hackathons h2{
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+.Hackathons-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: max-content;
+    margin: auto;
+
+
+}
+
+.Hackathons-card{
+    background-color: var(--card-bg);
+    padding: 60px 20px;
+    border-radius: 0%;
+    text-align: left;
+}
