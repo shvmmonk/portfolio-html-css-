@@ -117,17 +117,18 @@ nav {
 }
 
 #Projects h2 {
+    text-align: center;
     font-size: 2rem;
     margin-bottom: 40px;
     color: var(--primary-color);
 }
 
-.Projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 25px;
-    max-width: 1000px;
-    margin: auto;
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .Project-card{
@@ -195,7 +196,44 @@ nav {
     margin-bottom: 20px;
 }
 
-.project-card p {
+.Hackathons-card p {
   line-height: 1.5;
-  margin-bottom: 15px;
 }
+
+#Contact{
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#Contact h2{
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+#Contact p{
+
+    margin-bottom: 20px;
+    line-height: 1.3;
+    
+}
+
+.Contact-links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Contact-links a{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: var(--card-bg);
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
